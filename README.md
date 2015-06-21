@@ -1,5 +1,5 @@
 
-#Getting and Cleaning Data - Course Project
+#Course Project - Getting and Cleaning Data 
 ==========================================
 
 This repository is for R code and documentation files for the Coursera's "Getting and Cleaning data" course.
@@ -15,3 +15,10 @@ The dataset being used here is obtained from: https://d396qusza40orc.cloudfront.
 `run_analysis.R` This is a code file written in R that can be run in R console using `source("run_analysis.R")`
 
 `ridyData.txt` This file contains data after transformation
+
+## How to Run
+
+* Download and unzip data
+* Place the file `run_analysis.R` in current working directory
+* Change the code file (line 25). Add path to location where the data is unzipped
+* Run file `source("run_analysis.R")`
