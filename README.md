@@ -27,16 +27,16 @@ The dataset being used here is obtained from: https://d396qusza40orc.cloudfront.
 It performs the following operations on Data Files:
 
 1. Read all the meta data  in following variables:
-	--* features 
-	--* activityType
+	* features 
+	* activityType
 2. Read Training data in following variables:
-	--* subjectTrain 
-	--* xTrain 
-	--* yTrain
+	* subjectTrain 
+	* xTrain 
+	* yTrain
 3. Read Test data in following variables
-	--* subjectTest
-	--* xTest
-	--* yTest
+	* subjectTest
+	* xTest
+	* yTest
 4. Assigns column names to the data 
 5. Bind columns of Test datasets and assign to testDataset
 6. Bind columns of Train datasets and assign to trainDataset
