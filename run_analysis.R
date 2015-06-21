@@ -22,7 +22,7 @@ currentWD <- getwd()
 
 # Change working directory to the location where the data was unzipped
 # TODO: change the following path before running the script 
-setwd('D:/users/umair/documents/R/workspace/UCI HAR Dataset/');
+setwd('./UCI HAR Dataset/');
 
 # Read in Meta Data
 features     <- read.table('./features.txt',header=FALSE); 
